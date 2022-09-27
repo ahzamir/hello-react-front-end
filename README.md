@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## hello-react-front-end
 
-## Available Scripts
+> I created this react app to practice back-end using rails and front-end using react by using my [hello-rails-back-end](https://github.com/ahzamir/hello-rails-back-end) API endpoint to greet people.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- [x] Frontend: [React-Redux](https://react-redux.js.org/)
+- [x] Backend: [Ruby on Rails](https://rubyonrails.org/)
+- [x] Linter: [Rubocop](https://rubocop.org/)
+- [x] Code Editor: [VS Code](https://code.visualstudio.com/)
+- [x] Database: [PostgreSQL](https://www.postgresql.org/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get a local copy up and running follow these simple example steps.
 
-### `npm test`
+1- Clone both repositories:
+```
+$ git clone https://github.com/ahzamir/hello-react-front-end.git
+```
+```
+$ git clone https://github.com/ahzamir/hello-rails-back-end.git
+```
+2- Go to the repository folder of hello-rails-back-end in your command prompt:
+```
+$ cd hello-rails-back-end
+```
+3- You might need to install dependecies with:
+```
+$ bundle install
+```
+4- Go to command line and run the command below for the live server:
+```
+$ rails server
+```
+5- Go to the repository folder of hello-react-front-end in your command prompt:
+```
+$ cd hello-react-front-end
+```
+6- You might need to install dependecies with:
+```
+$ yarn install
+```
+OR
+```
+$ npm install
+```
+7- Go to command line and run the command below for the live server:
+```
+$ yarn start
+```
+OR
+```
+$ npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- [x] A web browser like [Google Chrome](https://www.google.com/chrome/).
+- [x] A code editor like [Visual Studio Code](https://code.visualstudio.com/).
+- [x] A terminal to run the code.
+- [x] [Ruby](https://www.ruby-lang.org/en/) installed on your computer.
+- [x] [Rails](https://rubyonrails.org/) installed on your computer.
+- [x] [Node.js](https://nodejs.org/en/) installed on your computer.
+- [x] [PostgreSQL](https://www.postgresql.org/) installed on your computer.
+- [x] [Yarn](https://yarnpkg.com/) installed on your computer.
+- [x] [Git](https://git-scm.com/) installed on your computer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can check if Git is installed by running the following command in the terminal.
+```
+$ git --version
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Likewise for Ruby installation.
+```
+$ ruby --version && irb
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To install rails, in the terminal kindly run this command
+```
+$ gem install rails
+```
 
-### `npm run eject`
+To check if node is installed, kindly run this command in the terminal.
+```
+$ node --version
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To check if yarn is installed, kindly run this command in the terminal.
+```
+$ yarn --version
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To check if PostgreSQL is installed, kindly run this command in the terminal.
+```
+$ psql --version
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Authors
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👤 **Ahmad Zamir Yousufi** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
 
-## Learn More
+- GitHub: [@ahzamir](https://github.com/ahzamir).
+- Twitter: [@YousufiZamir](https://twitter.com/YousufiZamir)
+- LinkedIn: [ahmad-zamir-yousufi](https://www.linkedin.com/in/ahzamir/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues, and feature requests are welcome!
 
-### Code Splitting
+Feel free to check the [issues page](https://github.com/ahzamir/hello-react-front-end/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
+-Thank you to Microverse Inc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE.md) licensed.
